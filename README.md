@@ -13,7 +13,23 @@ Analyze factors related to readmission as well as other outcomes pertaining to p
 
 ## Main Objective
 
-**How effective was the treatment received in hospital in order to reduce hospital readmission?**
+> **How effective was the treatment received in hospital?** 
+
+## Principal References
+
+### Paper
+
+Beata Strack, Jonathan P. DeShazo, Chris Gennings, Juan L. Olmo, Sebastian Ventura, Krzysztof J. Cios, and John N. Clore, “Impact of HbA1c Measurement on Hospital Readmission Rates: Analysis of 70,000 Clinical Database Patient Records,” BioMed Research International, vol. 2014, Article ID 781670, 11 pages, 2014.
+
+https://www.hindawi.com/journals/bmri/2014/781670/
+
+### Dataset
+
+https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008#
+
+### Data description
+
+https://www.hindawi.com/journals/bmri/2014/781670/tab1/
 
 
 Project Organization
