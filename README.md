@@ -32,6 +32,7 @@ https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999
 https://www.hindawi.com/journals/bmri/2014/781670/tab1/
 
 # Notebooks
+**note:** I use plotly for make and interactive plots, but can be seen if you open the notebooks on github.
 
 [1-readmited_preprocess.ipynb](https://github.com/JoseRZapata/Readmission-ML-Project/blob/master/notebooks/1-readmited_preprocess.ipynb) - Data loading and cleaning
 
