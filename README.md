@@ -1,5 +1,5 @@
 Diabetes Dataset Classification Project 
-==============================
+=======================================
 
 Analyze factors related to readmission as well as other outcomes pertaining to patients in order to classify a patient-hospital outcome
 
@@ -30,6 +30,37 @@ https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999
 ### Data description
 
 https://www.hindawi.com/journals/bmri/2014/781670/tab1/
+
+# Notebooks
+
+[1-readmited_preprocess.ipynb](https://github.com/JoseRZapata/Readmission-ML-Project/blob/master/notebooks/1-readmited_preprocess.ipynb) - Data loading and cleaning
+
+[2-readmited_data_explore.ipynb](https://github.com/JoseRZapata/Readmission-ML-Project/blob/master/notebooks/2-readmited_data_explore.ipynb) - Data explore and analysis
+
+[3-readmited_Models_imbalance.ipynb](https://github.com/JoseRZapata/Readmission-ML-Project/blob/master/notebooks/3-readmited_Models_imbalance.ipynb) (**Selected Model**) - Modeling with a imbalanced dataset.
+
+**Modeling conclusions**
+
+[4-readmited_Models_balanced.ipynb](https://github.com/JoseRZapata/Readmission-ML-Project/blob/master/notebooks/4-readmited_Models_balanced.ipynb) - Modeling  using smote for balanced the dataset
+
+5-readmited_Models_imbalance_NoMeds.ipynb - Modeling with imbalanced dataset and no Medication features
+
+# Selected Measure
+
+The selected evaluation metric is the 
+> **Recall - Sensitivity**
+
+A False Negative might delay more tests or treatment, 
+however a False Positive may just lead to more tests or treatments – not as costly as putting a life at stake.
+
+# Selected Model
+
+the selected model is the result of process detailed in 3-readmited_Models_imbalance.ipynb
+
+The model is saved in the models folder:
+
+`NB_pipeline_imbalance_recall.joblib`
+
 
 
 Project Organization
